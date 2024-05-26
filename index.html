@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <i class="fas fa-arrow-left"></i>
+            <h1>Weather App</h1>
+        </header>
+        <div class="input-part">
+            <p class="info-txt"></p>
+            <div class="input-container">
+                <input type="text" placeholder="Enter city name">
+                <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+            <button class="location-btn">Get Device Location</button>
+        </div>
+        <div class="weather-part">
+            <i class="wi wi-day-sunny weather-icon"></i>
+            <div class="temp">
+                <span class="numb">0</span>°C
+            </div>
+            <div class="weather">Weather description</div>
+            <div class="location">
+                <span>City, Country</span>
+            </div>
+            <div class="bottom-details">
+                <div class="column feels">
+                    <div class="temp">
+                        <span class="numb-2">0</span>°C
+                    </div>
+                    <p>Feels like</p>
+                </div>
+                <div class="column humidity">
+                    <span>0%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center;">Made by Tulugu Kishore Babu</p>
+        <br>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
